@@ -10,9 +10,10 @@ mask =        0x00000000000000001111111111111111000000000000000000000000
 
 print(destination&mask)
 
-verification = 0x1355b6767988295e0000000000030034
+verification = 0x1355b6767988295e00000000000300347e581e360000000000000000
+mask =         0x11111111111111111111111111111111000000000000000000000000
 
-print(verification)
+print(verification&mask)
 
 
 
@@ -48,4 +49,4 @@ value_of_sms = {0x4,0x8,0x6,0x5,0x6,0xC,0x6,0xC,0x6F,}#array of bytes 4 bits one
 
 #last part
 
-print(bin(NewTag)+value_length+value_of_sms)
+#print(bin(NewTag)+value_length+value_of_sms)
