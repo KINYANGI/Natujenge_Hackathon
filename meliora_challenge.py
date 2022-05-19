@@ -13,7 +13,6 @@ verification = 0x1355b6767988295e0000000000030034
 
 print(verification)
 
-datachunk = 
 
 
 #challenge 2
